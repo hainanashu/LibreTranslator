@@ -54,7 +54,7 @@ const App = () => {
                 body.source_lang = sourceLang;
             }
 
-            const response = await fetch(`${process.env.REACT_APP_DEEPLX_API_URL}/translate?token=${process.env.REACT_APP_API_TOKEN}`, {
+            const response = await fetch(`https://api.deeplx.org/QUxVDNJBiyeBD4FBy9jOE8oil5WIUogkn-_z8Vj3AZY/translate`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
